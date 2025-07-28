@@ -1,0 +1,17 @@
+Parameter For One Of the Patterns
+IT is Recommended to Play around with different values .
+
+Sensor distance
+2.00
+Sensor angle
+34.00
+Turning speed
+26.00
+Speed
+2.21
+Decay factor
+0.80
+Deposit amount
+1.00
+Number of agents
+50000

@@ -1,0 +1,20 @@
+div.main {
+    display: inline-grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+    align-items: start;
+}
+
+div.settings {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-gap: 5px;
+}
+
+div.settings label {
+    text-align: right;
+}
+
+div.settings input {
+    text-align: left;
+}

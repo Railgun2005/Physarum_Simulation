@@ -65,7 +65,7 @@ These parameters significantly affect the resulting patterns and behavior.
 # 🌐 Live Demo
 
 ```txt
-https://physarum-simulation-5qk0jhuyp-herry-projects.vercel.app/
+https://physarum-simulation-ftfs6sfbc-herry-projects.vercel.app/
 ```
 
 ---

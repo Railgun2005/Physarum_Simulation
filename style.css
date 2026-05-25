@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Fullscreen canvas */
+#simcanvas {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background: black;
+}
+
+/* Floating settings panel */
+.settings {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+    display: grid;
+    grid-template-columns: max-content 180px 60px;
+    gap: 6px;
+
+    padding: 12px;
+
+    background: rgba(20, 20, 20, 0.8);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+
+    color: white;
+
+    z-index: 10;
+
+    max-height: 95vh;
+    overflow-y: auto;
+
+    backdrop-filter: blur(5px);
+}
+
+.settings label {
+    text-align: right;
+    align-self: center;
+}
+
+.settings input[type="range"] {
+    width: 180px;
+}
+
+.settings button {
+    grid-column: span 3;
+
+    padding: 8px;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #333;
+    color: white;
+}
+
+.settings button:hover {
+    background: #444;
+}
+
+#debug {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    z-index: 20;
+
+    color: white;
+    background: rgba(0,0,0,0.7);
+
+    padding: 10px;
+    border-radius: 8px;
+}
